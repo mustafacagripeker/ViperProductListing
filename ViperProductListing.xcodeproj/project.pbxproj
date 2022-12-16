@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		9EC417BE294BBA1600BDCB20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC417BD294BBA1600BDCB20 /* AppDelegate.swift */; };
 		9EC417C0294BBA1600BDCB20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC417BF294BBA1600BDCB20 /* SceneDelegate.swift */; };
-		9EC417C2294BBA1600BDCB20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC417C1294BBA1600BDCB20 /* ViewController.swift */; };
 		9EC417C5294BBA1600BDCB20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC417C3294BBA1600BDCB20 /* Main.storyboard */; };
 		9EC417C7294BBA1800BDCB20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC417C6294BBA1800BDCB20 /* Assets.xcassets */; };
 		9EC417CA294BBA1800BDCB20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC417C8294BBA1800BDCB20 /* LaunchScreen.storyboard */; };
+		9EC417D8294BC13400BDCB20 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC417D7294BC13400BDCB20 /* HomePageView.swift */; };
+		9EC417DA294BC14200BDCB20 /* HomePageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC417D9294BC14200BDCB20 /* HomePageInteractor.swift */; };
+		9EC417DD294BC15800BDCB20 /* HomePagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC417DC294BC15800BDCB20 /* HomePagePresenter.swift */; };
+		9EC417DF294BC16400BDCB20 /* HomePageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC417DE294BC16400BDCB20 /* HomePageEntity.swift */; };
+		9EC417E1294BC16F00BDCB20 /* HomePageRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC417E0294BC16F00BDCB20 /* HomePageRouter.swift */; };
+		9EC417E3294BC18E00BDCB20 /* HomePageBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC417E2294BC18E00BDCB20 /* HomePageBuilder.swift */; };
+		9EC417EC294BC46900BDCB20 /* ProductListingItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC417EA294BC46900BDCB20 /* ProductListingItemCollectionViewCell.swift */; };
+		9EC417ED294BC46900BDCB20 /* ProductListingItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EC417EB294BC46900BDCB20 /* ProductListingItemCollectionViewCell.xib */; };
+		9EC417EF294BDBFE00BDCB20 /* HomeContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC417EE294BDBFE00BDCB20 /* HomeContracts.swift */; };
+		9EC417F2294BECC800BDCB20 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9EC417F1294BECC800BDCB20 /* Alamofire */; };
+		9EC417F5294BECF300BDCB20 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 9EC417F4294BECF300BDCB20 /* Lottie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9EC417BA294BBA1600BDCB20 /* ViperProductListing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperProductListing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EC417BD294BBA1600BDCB20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EC417BF294BBA1600BDCB20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9EC417C1294BBA1600BDCB20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9EC417C4294BBA1600BDCB20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EC417C6294BBA1800BDCB20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EC417C9294BBA1800BDCB20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EC417CB294BBA1800BDCB20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC417D7294BC13400BDCB20 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		9EC417D9294BC14200BDCB20 /* HomePageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageInteractor.swift; sourceTree = "<group>"; };
+		9EC417DC294BC15800BDCB20 /* HomePagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePagePresenter.swift; sourceTree = "<group>"; };
+		9EC417DE294BC16400BDCB20 /* HomePageEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageEntity.swift; sourceTree = "<group>"; };
+		9EC417E0294BC16F00BDCB20 /* HomePageRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageRouter.swift; sourceTree = "<group>"; };
+		9EC417E2294BC18E00BDCB20 /* HomePageBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageBuilder.swift; sourceTree = "<group>"; };
+		9EC417EA294BC46900BDCB20 /* ProductListingItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListingItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		9EC417EB294BC46900BDCB20 /* ProductListingItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListingItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		9EC417EE294BDBFE00BDCB20 /* HomeContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContracts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EC417F2294BECC800BDCB20 /* Alamofire in Frameworks */,
+				9EC417F5294BECF300BDCB20 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +76,79 @@
 		9EC417BC294BBA1600BDCB20 /* ViperProductListing */ = {
 			isa = PBXGroup;
 			children = (
-				9EC417BD294BBA1600BDCB20 /* AppDelegate.swift */,
+				9EC417D4294BC10200BDCB20 /* Helper */,
+				9EC417D1294BBA2B00BDCB20 /* HomePageModule */,
+				9EC417D2294BC0CA00BDCB20 /* ProductDetailModule */,
+				9EC417D3294BC0DC00BDCB20 /* CartModule */,
 				9EC417BF294BBA1600BDCB20 /* SceneDelegate.swift */,
-				9EC417C1294BBA1600BDCB20 /* ViewController.swift */,
+				9EC417BD294BBA1600BDCB20 /* AppDelegate.swift */,
 				9EC417C3294BBA1600BDCB20 /* Main.storyboard */,
 				9EC417C6294BBA1800BDCB20 /* Assets.xcassets */,
 				9EC417C8294BBA1800BDCB20 /* LaunchScreen.storyboard */,
 				9EC417CB294BBA1800BDCB20 /* Info.plist */,
 			);
 			path = ViperProductListing;
+			sourceTree = "<group>";
+		};
+		9EC417D1294BBA2B00BDCB20 /* HomePageModule */ = {
+			isa = PBXGroup;
+			children = (
+				9EC417D6294BC12500BDCB20 /* Viper */,
+				9EC417D5294BC11E00BDCB20 /* Cells */,
+			);
+			path = HomePageModule;
+			sourceTree = "<group>";
+		};
+		9EC417D2294BC0CA00BDCB20 /* ProductDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProductDetailModule;
+			sourceTree = "<group>";
+		};
+		9EC417D3294BC0DC00BDCB20 /* CartModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CartModule;
+			sourceTree = "<group>";
+		};
+		9EC417D4294BC10200BDCB20 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9EC417D5294BC11E00BDCB20 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9EC417E5294BC3EC00BDCB20 /* ProductListingItem */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9EC417D6294BC12500BDCB20 /* Viper */ = {
+			isa = PBXGroup;
+			children = (
+				9EC417D7294BC13400BDCB20 /* HomePageView.swift */,
+				9EC417D9294BC14200BDCB20 /* HomePageInteractor.swift */,
+				9EC417DC294BC15800BDCB20 /* HomePagePresenter.swift */,
+				9EC417DE294BC16400BDCB20 /* HomePageEntity.swift */,
+				9EC417E0294BC16F00BDCB20 /* HomePageRouter.swift */,
+				9EC417E2294BC18E00BDCB20 /* HomePageBuilder.swift */,
+				9EC417EE294BDBFE00BDCB20 /* HomeContracts.swift */,
+			);
+			path = Viper;
+			sourceTree = "<group>";
+		};
+		9EC417E5294BC3EC00BDCB20 /* ProductListingItem */ = {
+			isa = PBXGroup;
+			children = (
+				9EC417EA294BC46900BDCB20 /* ProductListingItemCollectionViewCell.swift */,
+				9EC417EB294BC46900BDCB20 /* ProductListingItemCollectionViewCell.xib */,
+			);
+			path = ProductListingItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +167,10 @@
 			dependencies = (
 			);
 			name = ViperProductListing;
+			packageProductDependencies = (
+				9EC417F1294BECC800BDCB20 /* Alamofire */,
+				9EC417F4294BECF300BDCB20 /* Lottie */,
+			);
 			productName = ViperProductListing;
 			productReference = 9EC417BA294BBA1600BDCB20 /* ViperProductListing.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +199,10 @@
 				Base,
 			);
 			mainGroup = 9EC417B1294BBA1600BDCB20;
+			packageReferences = (
+				9EC417F0294BECC800BDCB20 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				9EC417F3294BECF300BDCB20 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 9EC417BB294BBA1600BDCB20 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +219,7 @@
 			files = (
 				9EC417CA294BBA1800BDCB20 /* LaunchScreen.storyboard in Resources */,
 				9EC417C7294BBA1800BDCB20 /* Assets.xcassets in Resources */,
+				9EC417ED294BC46900BDCB20 /* ProductListingItemCollectionViewCell.xib in Resources */,
 				9EC417C5294BBA1600BDCB20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +231,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EC417C2294BBA1600BDCB20 /* ViewController.swift in Sources */,
+				9EC417EF294BDBFE00BDCB20 /* HomeContracts.swift in Sources */,
+				9EC417DA294BC14200BDCB20 /* HomePageInteractor.swift in Sources */,
+				9EC417EC294BC46900BDCB20 /* ProductListingItemCollectionViewCell.swift in Sources */,
+				9EC417E1294BC16F00BDCB20 /* HomePageRouter.swift in Sources */,
 				9EC417BE294BBA1600BDCB20 /* AppDelegate.swift in Sources */,
+				9EC417DF294BC16400BDCB20 /* HomePageEntity.swift in Sources */,
+				9EC417D8294BC13400BDCB20 /* HomePageView.swift in Sources */,
+				9EC417E3294BC18E00BDCB20 /* HomePageBuilder.swift in Sources */,
+				9EC417DD294BC15800BDCB20 /* HomePagePresenter.swift in Sources */,
 				9EC417C0294BBA1600BDCB20 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +458,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9EC417F0294BECC800BDCB20 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		9EC417F3294BECF300BDCB20 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9EC417F1294BECC800BDCB20 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EC417F0294BECC800BDCB20 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		9EC417F4294BECF300BDCB20 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9EC417F3294BECF300BDCB20 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9EC417B2294BBA1600BDCB20 /* Project object */;
 }
